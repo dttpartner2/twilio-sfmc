@@ -1,4 +1,16 @@
 {
+	"key": "8d73d6eb-c422-4bbe-9678-e8f5d4c58939",
+	"metaData": {
+		"icon": "images/icon.png",
+		"iconSmall": "images/icon_small.png"
+	},
+	"type": "RESTDECISION",
+	"lang": {
+		"en-US": {
+			"name": "Service Cloud Custom Split",
+			"description": "Custom Split activity that makes a decision based on data from Service Cloud"
+		}
+	},
     "workflowApiVersion": "1.1",
     "metaData": {
        "icon": "images/iconSmall.png",
