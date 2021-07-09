@@ -21,7 +21,7 @@
                 }               
             ],
             "outArguments": [],
-            "url": "https://api.twilio.com/2010-04-01/Accounts/AC88c80d31f6c522dff0cd56c8b389ec46/Messages/journeybuilder/execute",
+            "url": "https://smsch.herokuapp.com/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -31,7 +31,7 @@
     },
     "configurationArguments": {
        "save": {
-           "url": "https://api.twilio.com/2010-04-01/Accounts/AC88c80d31f6c522dff0cd56c8b389ec46/Messages/save",
+           "url": "https://smsch.herokuapp.com/save",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -39,7 +39,7 @@
             "timeout": 2000
        },
        "publish": {
-           "url": "https://api.twilio.com/2010-04-01/Accounts/AC88c80d31f6c522dff0cd56c8b389ec46/Messages/publish",
+           "url": "https://smsch.herokuapp.com/publish",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -47,7 +47,7 @@
             "timeout": 2000
        },
        "validate": {
-           "url": "https://api.twilio.com/2010-04-01/Accounts/AC88c80d31f6c522dff0cd56c8b389ec46/Messages/validate",
+           "url": "https://smsch.herokuapp.com/validate",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -55,7 +55,7 @@
             "timeout": 2000
        },
        "stop": {
-           "url": "https://api.twilio.com/2010-04-01/Accounts/AC88c80d31f6c522dff0cd56c8b389ec46/Messages/stop",
+           "url": "https://smsch.herokuapp.com/stop",
             "verb": "POST",
             "body": "",
             "format": "json",
